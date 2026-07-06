@@ -4,20 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3ef7a06c88.js" crossorigin="anonymous"></script>
     <title>HomeWork</title>
 </head>
 
 <body>
-    <h1>Contact Us</h1>
+    <h1>Contact Us 🤙</h1>
     <ul>
         <li><a href="../index.html" target="_blank" rel="noopener noreferrer">Home</a></li>
         <li><a href="../pages/about.html" target="_blank" rel="noopener noreferrer">About Us</a></li>
         <li><a href="../pages/contact.html" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
     </ul>
     <h2>Let's Brew a Conversation</h2>
+    <form action="/submit-your-form-handler" method="POST">
+
+        <label for="firstname">First name:</label><br>
+        <div style="position: relative; display: inline-block;">
+            <input list="names" id="firstname" name="firstname" placeholder="Select..." style="padding-right: 30px; box-sizing: border-box;">
+            <a href=""><i class="fa-solid fa-circle-user" style="position: absolute; right: 5px; top: 50%; transform: translateY(-50%);"></i></a>
+        </div>
+        <datalist id="names">
+            <option value="Dzidzor">
+        </datalist>
+        </div><br><br>
+
+        <label for="lastname">Last name:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Telephone:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Please type your message here"></textarea><br><br>
+        <button type="submit">Send Message</button>
+    </form>
     <p>
         <p>
-            Whether you're planning your next coffee break, have a question about our menu, or simply want to share your Café de l'Or experience, we'd love to hear from you.<br>g Reach out using the contact details below, and our team will be happy to
+            Whether you're planning your next coffee break, have a question about our menu, or simply want to share your Café de l'Or experience, we'd love to hear from you.<br> Reach out using the contact details below, and our team will be happy to
             assist you.
         </p>
         <ul>
@@ -25,6 +48,16 @@
             <li>Phone: <a href="call:+233535608086">+233535608086</a></li>
         </ul>
     </p>
+    <footer>
+        <p>&copy; 2024 Café de l'Or. All rights reserved.</p>
+        <div>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook" style="color: rgb(86, 37, 159);"></i></a> |
+            <a href="https://www.instagram.com/transatcafelor/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-shake" style="color: rgb(215, 18, 34);"></i></a> |
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter fa-beat-fade" style="color: rgb(5, 5, 6);"></i></a> |
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok fa-beat" style="color: rgb(5, 5, 6);"></i></i></a>|
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube fa-shake" style="color: rgb(215, 18, 34);"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
